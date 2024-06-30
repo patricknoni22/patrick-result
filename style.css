@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    place-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction:row;
+    text-align:center;
+    width:600px;
+    margin:5rem auto;
+}
+
+
+.one{
+    background-color:hsl(241, 81%, 54%);
+    height:450px;
+    width: 340px;
+    text-align: center;
+    color: aliceblue;
+    border-radius:30px;
+}
+.bold{
+    
+margin:2rem auto ;
+display: block;
+background-color: rgba(88, 107, 216, 0.781);
+height:200px;
+width: 200px;
+border-radius:50%;
+font-size: 70px;
+}
+.con{
+    font-size: 16px;
+}
+h4{
+    margin-bottom:20px;
+}
+
+
+
+
+.two{
+    width: 350px; 
+    background-color:white;
+    border-radius: 30px;
+    height:450px;
+    width: 347px;
+}
+img{
+display:block;
+padding-top: 10px;
+
+}
+.sum{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+.par{
+    display: inline-block;
+    padding-left: 190px;
+    place-content: center;
+}
+span{
+  margin: 10px;
+   padding: 9px;
+   border-radius: 10px;
+   display: block;
+}
+.reaction{
+
+    background-color:rgba(250, 217, 217, 0.267);
+}
+
+.memory{
+
+    background-color:rgba(255, 255, 201, 0.534);
+
+}
+.verbal{
+    background-color:rgba(210, 245, 201, 0.521);
+    
+}
+
+.visual{    
+    background-color:rgba(169, 189, 255, 0.37);
+
+}
+
+a{
+    display: block;
+text-decoration: none;
+padding:15px;
+background-color:darkblue;
+margin:0 40px;
+color: azure;
+border-radius: 50px;
+
+}
+
+a:hover{
+    color: red;
+    background-color:gold;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+
+    main{
+        display: flex;
+        flex-direction:column;
+        text-align:center;
+        width:340px;
+        margin:0 auto;
+    }
+    
+
+
+    
+}
+
+
+
